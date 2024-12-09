@@ -1,5 +1,6 @@
 ﻿namespace Kreta.Models
 {
+    public enum SchoolClassType { ClassA, ClassB, ClassC }
     public class Student
     {
         public string FirstName { get; set; }
