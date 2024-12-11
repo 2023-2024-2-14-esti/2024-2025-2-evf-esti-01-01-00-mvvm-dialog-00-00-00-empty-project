@@ -23,7 +23,7 @@ namespace Kreta.ViewModel
 
         public StudentViewModel()
         {
-            _student.BirthsDay = DateTime.Now;
+            _student.BirthsDay = DateTime.Now.AddYears(-14);
         }
 
         [RelayCommand]
